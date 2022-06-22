@@ -10,8 +10,11 @@ export const MainContent = styled.main`
   form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 500px;
+
+    background-color: #ebeaea;
+    border-radius: 45px;
   }
 `;

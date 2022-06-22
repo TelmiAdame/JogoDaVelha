@@ -13,5 +13,7 @@ export default createGlobalStyle`
       font-size: 62.5%;
     }
 
-
+body{
+  background-color: 3333333;
+}
 `;

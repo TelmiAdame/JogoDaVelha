@@ -1,4 +1,5 @@
 import React, { ButtonHTMLAttributes } from "react";
+import { Container } from "./styles";
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   buttonType: "submit" | "reset" | "button";
@@ -6,9 +7,11 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 const Button = ({ buttonType, label, ...rest }: IButtonProps) => {
   return (
-    <button {...rest} type={buttonType} name="clickButton">
-      {label}
-    </button>
+    <Container>
+      <button {...rest} type={buttonType} name="clickButton">
+        {label}
+      </button>
+    </Container>
   );
 };
 

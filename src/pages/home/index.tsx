@@ -13,7 +13,7 @@ const Home = () => {
         }}
       >
         <Input name="name" />
-        <Button buttonType="submit" label="PRESS START" />
+        <Button buttonType="submit" label="START" />
       </Form>
     </MainContent>
   );

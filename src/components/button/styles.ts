@@ -9,14 +9,16 @@ export const Container = styled.div`
   background-color: transparent;
 
   button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 283px;
     height: 44px;
     background-color: #9b0606;
     color: #ffffff;
     border-radius: 30px;
     font-size: 3.2rem;
-    border-color: #6f6f6f;
-    border-width: 1px;
-    border-style: solid;
+    border: solid 1px #6f6f6f;
   }
 `;

@@ -1,4 +1,4 @@
-# TicTacToe
+# Jogo da Velha
 TicTacToe made usingreact and java 
 # Getting Started with Create React App
 
